@@ -1,0 +1,8 @@
+arr1=list(map(int,input("enter the element for arr1 :").split()))
+arr2=list(map(int,input("enter the element for arr2 : ").split()))
+arr1=set(arr1)
+arr2=set(arr2)
+sorted(arr1)
+sorted( arr2)
+print("union:" ,arr1|arr2)
+print("intersection:",arr1 & arr2)

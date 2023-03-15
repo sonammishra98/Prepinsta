@@ -12,7 +12,8 @@ arr1=[2,4,5,3,1,6,9,34,67,5,90,24,]
 arr2=[3,4,5,6]
 m=len(arr1)
 n=len(arr2)
-if(subset(arr1,arr2,m,n)):
+if(subset(arr1,arr2,m,n)): 
     print("arr2[]  is subset of arr1[]")
 else:
     print("arr2[] is not subset of arr1[]")
+    
