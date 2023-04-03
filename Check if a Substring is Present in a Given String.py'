@@ -1,0 +1,7 @@
+string="geeks for geeks"
+key=input()
+
+if key in l:
+  print("yes")
+else:print("no")
+
